@@ -29,9 +29,9 @@ angular.module('App', ['ionic'])
     });
   })
 
-  // .controller('LeftMenuController', function ($scope, Locations) {
-  //   $scope.locations = Locations.data;
-  // })
+  .controller('LeftMenuController', function ($scope, Locations) {
+    $scope.locations = Locations.data;
+  })
 
   .factory('Settings', function () {
     var Settings = {
