@@ -1,4 +1,10 @@
 {
   "name": "ionic-weather-app",
-  "app_id": ""
+  "app_id": "",
+  "proxies": [
+    {
+      "path": "/api/forecast",
+      "proxyUrl": "https://api.darksky.net/forecast/40be79045c79a2bd875016e86257b6b1/"
+    }
+  ]
 }
